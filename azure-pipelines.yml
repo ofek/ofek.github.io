@@ -10,6 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+- script: ./scripts/access-theme.sh
 - task: Docker@0
   displayName: 'Run Jekyll'
   inputs:
