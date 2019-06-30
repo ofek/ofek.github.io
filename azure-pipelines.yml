@@ -45,5 +45,5 @@ jobs:
   - script: ./scripts/publish-site.sh
     env:
       GITHUB_TOKEN: $(GITHUB_TOKEN)
-      SITE_DIR: $(Pipeline.Workspace)/_site
+      SITE_DIR: $(Pipeline.Workspace)/site
     displayName: 'Push to master'
