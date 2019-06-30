@@ -37,7 +37,7 @@ jobs:
     vmImage: 'ubuntu-latest'
 
   steps:
-  - script: ./scripts/access-theme.sh
+  - script: ./scripts/publish-site.sh
     env:
       GITHUB_TOKEN: $(GITHUB_TOKEN)
     displayName: 'Push to master'
