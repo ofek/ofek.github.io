@@ -5,7 +5,7 @@ pr:
 - site
 
 jobs:
-- job: 'Build site'
+- job: 'Build'
 
   pool:
     vmImage: 'ubuntu-latest'
@@ -28,8 +28,8 @@ jobs:
   - script: jekyll build --future
     displayName: 'Run Jekyll'
 
-- job: 'Publish site'
-  dependsOn: 'Build site'
+- job: 'Publish'
+  dependsOn: 'Build'
   condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
 
   pool:
