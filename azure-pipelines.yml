@@ -1,0 +1,49 @@
+trigger:
+- site
+
+pr:
+- site
+
+jobs:
+- job: 'Build'
+
+  pool:
+    vmImage: 'ubuntu-latest'
+
+  steps:
+  - task: UseRubyVersion@0
+    inputs:
+      versionSpec: '>= 2.5'
+
+  - script: ./scripts/access-theme.sh
+    env:
+      THEME_SSH_KEY: $(THEME_SSH_KEY)
+    displayName: 'Set up SSH'
+
+  - script: |
+      gem install bundler jekyll
+      bundle install --retry=3 --jobs=4
+    displayName: 'Install dependencies'
+
+  - script: jekyll build --future
+    displayName: 'Run Jekyll'
+
+  - publish: $(System.DefaultWorkingDirectory)/_site
+    artifact: site
+
+- job: 'Publish'
+  dependsOn: 'Build'
+  condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
+
+  pool:
+    vmImage: 'ubuntu-latest'
+
+  steps:
+  - download: current
+    artifact: site
+
+  - script: ./scripts/publish-site.sh
+    env:
+      GITHUB_TOKEN: $(GITHUB_TOKEN)
+      SITE_DIR: $(Pipeline.Workspace)/site
+    displayName: 'Push to master'
