@@ -1,8 +1,11 @@
+trigger:
+- site
+
+pr:
+- site
+
 jobs:
 - job: 'Build site'
-
-  trigger:
-  - site
 
   pool:
     vmImage: 'ubuntu-latest'
@@ -25,13 +28,9 @@ jobs:
   - script: jekyll build --future
     displayName: 'Run Jekyll'
 
-
 - job: 'Publish site'
   dependsOn: 'Build site'
   condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
-
-  trigger:
-  - site
 
   pool:
     vmImage: 'ubuntu-latest'
