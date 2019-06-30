@@ -6,7 +6,7 @@ IFS=$'\n\t'
 echo "Publishing site..."
 
 rev=$(git rev-parse --short HEAD)
-
+ls
 cd _site
 
 git init
