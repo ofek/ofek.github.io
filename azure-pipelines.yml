@@ -11,6 +11,8 @@ pool:
 
 steps:
 - script: ./scripts/access-theme.sh
+  env:
+    THEME_SSH_KEY: $(THEME_SSH_KEY)
 - task: Docker@0
   displayName: 'Run Jekyll'
   inputs:
