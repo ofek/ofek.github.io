@@ -6,7 +6,7 @@ IFS=$'\n\t'
 echo "Setting up SSH to access theme"
 mkdir -p ~/.ssh
 eval "$(ssh-agent -s)"
-echo $THEME_SSH_KEY | base64 -d | ssh-add -
+echo $THEME_SSH_KEY | base64 -d > ~/.ssh/hydejack_8_pro
 echo $'Host hydejack\n    HostName github.com\n    IdentitiesOnly yes\n    IdentityFile ~/.ssh/hydejack_8_pro' > ~/.ssh/config
 
 # Also add GitHub
