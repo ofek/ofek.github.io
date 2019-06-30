@@ -6,8 +6,8 @@ IFS=$'\n\t'
 echo "Publishing site..."
 
 rev=$(git rev-parse --short HEAD)
-ls
-cd _site
+
+cd $SITE_DIR
 
 git init
 git config user.name "Ofek Lev"

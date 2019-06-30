@@ -28,6 +28,9 @@ jobs:
   - script: jekyll build --future
     displayName: 'Run Jekyll'
 
+  - publish: $(System.DefaultWorkingDirectory)/_site
+    artifact: site
+
 - job: 'Publish'
   dependsOn: 'Build'
   condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
@@ -36,7 +39,11 @@ jobs:
     vmImage: 'ubuntu-latest'
 
   steps:
+  - download: current
+    artifact: site
+
   - script: ./scripts/publish-site.sh
     env:
       GITHUB_TOKEN: $(GITHUB_TOKEN)
+      SITE_DIR: $(Pipeline.Workspace)/_site
     displayName: 'Push to master'
