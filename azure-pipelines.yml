@@ -14,15 +14,15 @@ steps:
   inputs:
     versionSpec: '>= 2.5'
 
-- displayName: 'Set up SSH'
-  script: ./scripts/access-theme.sh
+- script: ./scripts/access-theme.sh
   env:
     THEME_SSH_KEY: $(THEME_SSH_KEY)
+  displayName: 'Set up SSH'
 
-- displayName: 'Install dependencies'
-  script: |
+- script: |
     gem install bundler jekyll
     bundle install --retry=3 --jobs=4
+  displayName: 'Install dependencies'
 
-- displayName: 'Build site'
-  script: jekyll build --future
+- script: jekyll build --future
+  displayName: 'Build site'
