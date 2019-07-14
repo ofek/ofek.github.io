@@ -1,7 +1,5 @@
+pr: none
 trigger:
-- site
-
-pr:
 - site
 
 jobs:
@@ -20,12 +18,15 @@ jobs:
       THEME_SSH_KEY: $(THEME_SSH_KEY)
     displayName: 'Set up SSH'
 
-  - script: |
-      gem install bundler jekyll
-      bundle install --retry=3 --jobs=4
+  - script: gem install bundler jekyll
+    displayName: 'Install Jekyll'
+
+  - script: bundle install --retry=3 --jobs=4
     displayName: 'Install dependencies'
 
-  - script: jekyll build --future
+  - script: bundle exec jekyll build --future
+    env:
+      JEKYLL_ENV: production
     displayName: 'Run Jekyll'
 
   - publish: $(System.DefaultWorkingDirectory)/_site
