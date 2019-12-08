@@ -7,9 +7,8 @@ echo "Removing unnecessary assets..."
 
 theme=$(bundler show jekyll-theme-hydejack-pro)
 
-rm -rf "$theme/assets/img/blog/*"
-rm -rf "$theme/assets/img/docs/*"
-rm -rf "$theme/assets/img/projects/*"
+rm -rf "$theme/assets/img/blog"
+rm -rf "$theme/assets/img/docs"
+rm -rf "$theme/assets/img/projects"
 
 echo "Success!"
-
