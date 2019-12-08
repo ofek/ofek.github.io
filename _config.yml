@@ -287,8 +287,8 @@ theme: jekyll-theme-hydejack-pro
 #   yandex: <verification-id>
 
 # Used for Twitter cards
-twitter:
-  username: Ofekmeister
+# twitter:
+#   username: Ofekmeister
 
 # Used for Facebook open graph
 # facebook:
@@ -297,10 +297,10 @@ twitter:
 #   admins:              <id>
 
 # Used on index and about sites
-social:
-  name: Ofek Lev
-  github: ofek
-  twitter: Ofekmeister
+# social:
+#   name: Ofek Lev
+#   github: ofek
+#   twitter: Ofekmeister
 
 
 # Other Plugins
