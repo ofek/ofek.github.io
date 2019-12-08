@@ -3,7 +3,7 @@ layout: project
 title: Bit
 date: November 2016
 screenshot:
-  src: https://raw.githubusercontent.com/ofek/bit/master/docs/source/_static/bit.png
+  src: /assets/img/projects/bit.png
 #   srcset:
 #     1920w: /assets/img/projects/hyde-v2.jpg
 #     960w: /assets/img/projects/hyde-v2@0,5x.jpg

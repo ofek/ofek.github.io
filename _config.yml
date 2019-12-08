@@ -247,8 +247,10 @@ exclude:
   - _js
   - _plugins
   - .sass-cache
+  - scripts
+  - azure-pipelines.yml
 include:
-  - LICENSE.md
+  - LICENSE
 
 
 # Plugins
