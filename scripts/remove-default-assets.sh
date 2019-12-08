@@ -12,3 +12,4 @@ rm -rf "$theme/assets/img/docs/*"
 rm -rf "$theme/assets/img/projects/*"
 
 echo "Success!"
+
