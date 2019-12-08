@@ -24,6 +24,9 @@ jobs:
   - script: bundle install --retry=3 --jobs=4
     displayName: 'Install dependencies'
 
+  - script: ./scripts/remove-default-assets.sh
+    displayName: 'Remove unnecessary default assets'
+
   - script: bundle exec jekyll build --future
     env:
       JEKYLL_ENV: production
