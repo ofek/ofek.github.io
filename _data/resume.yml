@@ -46,6 +46,7 @@ work:
       - "Created many test suites for verifying web page behavior using Selenium + PhantomJS"
   - company: "Computing Research Association"
     position: "Student Researcher, Intern"
+    website: "https://cra.org"
     startDate: "2012-05-01"
     endDate: "2012-08-01"
     highlights:
