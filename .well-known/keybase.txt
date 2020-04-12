@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/ofek
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ofek.dev
+  * I am ofek (https://keybase.io/ofek) on keybase.
+  * I have a public key with fingerprint FFB6 B92B 30B1 7848 546E  9912 972F E913 DAD5 A46E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010125d443c10557adc2e3264ec6a6eb6cb9a56f95f9d4e18a39c0238137a50700fa0a",
+      "fingerprint": "ffb6b92b30b17848546e9912972fe913dad5a46e",
+      "host": "keybase.io",
+      "key_id": "972fe913dad5a46e",
+      "kid": "010125d443c10557adc2e3264ec6a6eb6cb9a56f95f9d4e18a39c0238137a50700fa0a",
+      "uid": "9617d7ca5edb73b88e01ae853acd3519",
+      "username": "ofek"
+    },
+    "merkle_root": {
+      "ctime": 1586720074,
+      "hash_meta": "a0ccf7b73e3535fc2b9c3d8f065e56d5b5dcdbf22240db68d34949aa8b3130e2",
+      "seqno": 15895955
+    },
+    "revoke": {
+      "sig_ids": [
+        "597d4c81b6d4462d39cad0cd77ab237d56a6bc6035f99211a64bf12d3077fdca0f"
+      ]
+    },
+    "service": {
+      "hostname": "ofek.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1586720081,
+  "expire_in": 157680000,
+  "prev": "ffc104fdcb2a298fd746ef9048faf35c5cb83a8bf07a7c1455b6a444228a16ad",
+  "seqno": 77,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMKyAnicrVNdaBxVGN3EVmtIoSWI7UORTqqC3S73d+7cNEqhEFoJJAaVGmOX+5tM
+N7uzmZmkSWrqQ6VgRVtJBEuNkJZaKFZNTIJC/SFEFBRBsOiDVam6KFH0oUFqrXon
+Kor46LwM8835zjnfud9dXHtdrqGu+eDuudGnln6qe28hGsztHS/fc8CTkR7xWg54
+JbPyMv3aJGmxFGqvxQMQQEQ1IVhBQCkTWiGDkU+M8oVvpK8kF9S3nFquiYGBwFwB
+hAOImaCAAWAFEF7es2Gl18TVOKykjtZa6UuOJAYSsoAElPiGc4g4Q9ZwiLXQVLia
+a+yLkqzDmZMiMYUwcjX3UVyx9x/4/9n34B86PmSaKUGNlgzLIDAAChNQLJTGFPIM
+mJi4IsrGoSNrSt5Y3iubuNRvinEUpVmwKg2z35AGPkMAMOKGE0lfsWxS4boEUMoy
+R28wxdQqJLnCOrDAp4b6mkqqlZYWIUSAln6gMeGECxFIDDEwyHlIzEAlWlHglFPq
+LMRmKCqZTD0Je11midfyoEc500QFUPouIB9pN7rQQGnGhESYaeoiksoHzgXnCELh
+E2mhwwHGrFYCWO+hsUwtHgrVCnl2SP8YvqDNkLNTjaM0UlG/q/alaTVpyUJJR6oZ
+bL+RxT8JijKsaLcermPIxEkYVdwIDvmvvAKY98xwNYxNMcwQlPkBcE+m4+SypXJn
+TZxBiQTigdXMbYTlgARWWEwVVTLALi4LmGAKEkqlLwghCAUC+kL/HSBjzqfodZwu
+tYpIB2PjjS281bMqV9eQu351fXZvcg03rvvrNm14/Ybfdubb1Ez9zU3z+Z5Pa63L
+R7eXO79tT5471ja77mrz2lOPwl3bjm37aGuNXH7m0kxPZfveC82TXfWH9s19PTp9
+fN/TsmvuydunulZ9vvnnLR1HdwyPf1l76dLSLVtfm549bQunDhdnTnzx4aHjF25d
+uuux0ux333/zwcVzG85+XDw4cOYdDfa/f2/h4QfQjj24u2P+3PnNU3biyJpfTHBy
+Hty08Kw63Nr0RuvVd89uOp97ZXjqvsXRr0bW/zhxzXvh7hen7ZtbOibpHbfVWhuv
+dL4avfwI3d27fGW87YfneePJi5dPd6/Z9NnkxHLj2xvjdHTjQGdTYbHniTvXP/7J
+/UdqI+muE2e629t/3bn62u+fG3/y
+=vB1c
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ofek
+
+==================================================================
