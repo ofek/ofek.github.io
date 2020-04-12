@@ -251,6 +251,8 @@ exclude:
   - azure-pipelines.yml
 include:
   - LICENSE
+  - .nojekyll
+  - .well-known
 
 
 # Plugins
