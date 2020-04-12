@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/ofek
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ofek.dev
+  * I am ofek (https://keybase.io/ofek) on keybase.
+  * I have a public key with fingerprint FFB6 B92B 30B1 7848 546E  9912 972F E913 DAD5 A46E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010125d443c10557adc2e3264ec6a6eb6cb9a56f95f9d4e18a39c0238137a50700fa0a",
+      "fingerprint": "ffb6b92b30b17848546e9912972fe913dad5a46e",
+      "host": "keybase.io",
+      "key_id": "972fe913dad5a46e",
+      "kid": "010125d443c10557adc2e3264ec6a6eb6cb9a56f95f9d4e18a39c0238137a50700fa0a",
+      "uid": "9617d7ca5edb73b88e01ae853acd3519",
+      "username": "ofek"
+    },
+    "service": {
+      "hostname": "ofek.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1586717766,
+  "expire_in": 157680000,
+  "prev": "eea5fcaa092391079e1ceb6b41a59c209765aefd574a452986370db8990fba14",
+  "seqno": 75,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIhAnicrVJbSBVBGD6eMkkwokKKLHKlsDjYzO7Ozs5ByyLU8CEr6K6H2Z1Z3azd
+09k9lpnSDRIRKyqMeukG3SjKblSIFl0gSwgqKumhqKArInYhus1aQQ89Ni/DfPN9
+3//9P/+1jEGh9JSchtnn1m5/8yml68q2ZKhiByuqkwyX1UrROqmaD1x8BeOeH6u2
+mRSVAARQRkxVFRMChDBlpswVWVO5qVGNG5ppEIo0iyCLMJVDnSrEBLKiQwVTBDAA
+FgVUikiW7VTyRDxhO76wtSxDM4hsKMCAWFd1pGqcECgTLFucQIVRhqjAhLDK9QKF
+CGdQj+fZrsDEIzYQ7x/8/5w7+auOBjHDJkWcGVgxdJ0DSLmOFGoyBUESED2ecOhK
+Ltiuxaul+ogkkBrb5MFQgy7++s1jvEZo4gnXd013hUCrfD/uRQOVXxsPaKu5Eftt
+EDNsh4n5CUUNT3i260hRKJimbweOEOkahhhrWkTia+J2gsfsgIGwpgNxgjqiXFTi
+nCLLpBQQWSEQYMKhKUZhqJAiYsqAYA1RbjGEVaoimeiaggEzdEKAZVCoSkFLqxxX
+imIkctJK4enZlQ71kwku1V/tXDY4lJIeGpIaDhYrlD50+J91ezQ27ces3kibEjp3
+es+muw3905a2lB1ZlFXVWpTbpKw7li/phw6CwTmnHn64OK/rQsWmkRnJtZ20HY36
+Mv/Ziebc8+HWjMnvJ+net5YrL9+3fe5er+51WHnnyc331IYzWVs7ezvaX5vzxoy+
+U5i7JJy/5WNVyYXSju7ru8cX768uG7ev59Slxg1XDz4cO/FAL9x3bxDtS23Mu3Vx
+8bC8+g1tx1909fnfl3zPz8zOHKF83VhKZ6IZi54X9HWYWUefLFh+44EztyRravb0
+XS9L8ROrWN3p9ZxNO9I0h+oT+vrfZhaGx2fc7X9aftgvLFBvTrnd/Wpy47sh2Qsv
+h3uS92/bj9Obi3Oujaz5CQVrPDs=
+=DVjb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ofek
+
+==================================================================
