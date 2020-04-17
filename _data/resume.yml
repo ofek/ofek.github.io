@@ -34,7 +34,7 @@ work:
     highlights:
       - "Created integrations for many technologies such as Envoy, Hyper-V, CockroachDB, Vault, ClickHouse, and TLS itself"
       - "Implemented a circuit breaker and exponential backoff in the Agent, making our backend more resilient to failures"
-      - "Architected the E2E tooling for Agent Integrations, allowing anyone to spin up a production environment with a single command"
+      - "Architected the E2E tooling for Agent Integrations, allowing anyone to spin up and test production environments with a single command"
       - "Ensured the CI infrastructure ran smoothly and was optimized for 2 large, active monorepos"
       - "Introduced memory profiling facilities that made it easier to discover the source of memory leaks"
   - company: "Freelance"
