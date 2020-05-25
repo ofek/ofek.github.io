@@ -6,15 +6,11 @@ Well thanks a lot! All Bitcoin I receive goes directly towards my pursuit of ðŸŒ
 
 The easiest way to send money is with [Cash App](https://cash.app/help/us/en-us/3106-bitcoin-withdrawal-instructions)
 
-## Where
-
-<br>
-
-### Address
+## Address
 
 `1ofekLevAMy1GMGvrLETZz9jhvt65ZJro`
 
-### QR code
+## QR code
 
 <br>
 
