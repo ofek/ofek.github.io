@@ -31,3 +31,5 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm" if Gem.win_platform?
 
 gem "jekyll-theme-hydejack-pro", git: 'git@hydejack:qwtel/hydejack-8-pro.git'
+
+gem "kramdown-parser-gfm", "~> 1.1"
