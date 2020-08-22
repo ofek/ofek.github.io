@@ -24,7 +24,7 @@ basics:
       url: "https://www.linkedin.com/in/ofeklev/"
 work:
   - company: "Datadog"
-    position: "Software Engineer"
+    position: "Senior Software Engineer"
     website: "https://www.datadoghq.com"
     startDate: "2017-12-19"
     endDate: ""
@@ -35,6 +35,7 @@ work:
       - "Created integrations for many technologies such as Envoy, Hyper-V, CockroachDB, Vault, ClickHouse, and TLS itself"
       - "Implemented a circuit breaker and exponential backoff in the Agent, making our backend more resilient to failures"
       - "Architected the E2E tooling for Agent Integrations, allowing anyone to spin up and test production environments with a single command"
+      - "Built a public docs site for Integration developers from scratch, which is now referenced by the official documentation"
       - "Ensured the CI infrastructure ran smoothly and was optimized for 2 large, active monorepos"
       - "Introduced memory profiling facilities that made it easier to discover the source of memory leaks"
   - company: "Freelance"
