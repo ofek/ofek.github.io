@@ -1,6 +1,6 @@
 # Home build progress
 
-## 21-08-2020
+## 08-21-2020
 
 <br>
 
@@ -10,12 +10,22 @@
 
 </div>
 
-## 31-08-2020
+## 08-31-2020
 
 <br>
 
 <div align="center">
 
   <img src="/assets/img/house/02.jpg" />
+
+</div>
+
+## 09-04-2020
+
+<br>
+
+<div align="center">
+
+  <img src="/assets/img/house/03.jpg" />
 
 </div>
