@@ -4,6 +4,7 @@
 
 **Watched:**
 
+- [300 (2006)](https://www.imdb.com/title/tt0416449/)
 - [Cloud Atlas (2012)](https://www.imdb.com/title/tt1371111/)
 - [Hereditary (2018)](https://www.imdb.com/title/tt7784604/)
 - [Midsommar (2019)](https://www.imdb.com/title/tt8772262/)
