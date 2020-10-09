@@ -49,3 +49,13 @@
   <img src="/assets/img/house/05.jpg" />
 
 </div>
+
+## 10-09-2020
+
+<br>
+
+<div align="center">
+
+  <img src="/assets/img/house/06.jpg" />
+
+</div>
