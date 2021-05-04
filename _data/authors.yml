@@ -3,7 +3,7 @@
 # Change `author1` to your shortname.
 ofek:
   name: Ofek Lev
-  email: ofekmeister@gmail.com
+  email: echo@ofek.dev
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -28,7 +28,7 @@ ofek:
     twitter: Ofekmeister
     linkedin: ofeklev
     keybase: ofek
-    # email: ofekmeister@gmail.com
+    # email: echo@ofek.dev
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
