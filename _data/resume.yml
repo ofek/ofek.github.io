@@ -5,7 +5,7 @@ basics:
   name: "Ofek Lev"
   label: "Software Engineer"
   picture: "/assets/icons/icon.png"
-  email: "echo@ofek.dev"
+  email: "human@ofek.dev"
   website: "https://ofek.dev"
   summary: >
     I am a Software Engineer forever learning new technologies. Designing easy-to-use APIs or interfaces around complex systems is one of my greatest passions.
